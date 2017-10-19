@@ -4,5 +4,7 @@
   "memory": 128,
   "timeout": 5,
   "role": "arn:aws:iam::975765818137:role/apex-golang-sample_lambda_function",
-  "environment": {}
+  "environment": {
+    "APEX": "true"
+  }
 }
